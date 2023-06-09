@@ -1,1 +1,12 @@
+local Loady = loadstring(game:HttpGet'https://raw.githubusercontent.com/NorthPluis/Pluis/main/LoaderSource')()
+local LoadyWindow = Loady:CreateWindow('Pluis Loader', function(a)
+	print('loaded', a)
+end)
 
+LoadyWindow:CreateSelection({
+	Name = "Universal",
+    UpdateDate = 1668368950,
+    Flag = "Universal",
+    Status = "Working"
+})
+LoadyWindow:Initiate()
